@@ -45,6 +45,7 @@ shape = SubResource("CircleShape2D_jyhfs")
 
 [node name="Player2" type="StaticBody2D" parent="." unique_id=468357081]
 position = Vector2(886, 256)
+collision_layer = 69
 script = ExtResource("1_0wfyh")
 up = 4194320
 down = 4194322
@@ -83,6 +84,7 @@ position = Vector2(479, 577)
 shape = SubResource("RectangleShape2D_jyhfs")
 
 [node name="Score" type="Label" parent="." unique_id=1209634558]
+visible = false
 offset_left = 437.0
 offset_top = -13.0
 offset_right = 533.0
